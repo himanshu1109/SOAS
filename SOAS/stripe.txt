@@ -1,0 +1,11 @@
+curl -X POST https://connect.stripe.com/oauth/token \
+-d client_secret=sk_test_51LsOIKSGzGsWsC0AEZE6LJVrQXvHGS5iSYvDuoUUOdD0vj1qWEX0Gp5TRPPunZEpRV5buAzSSwauJHYjJXQ2vPbf00aHltpEdI \
+-d code=ac_NYZjhM8H6TyvBWOWCfUOrFQJdqSuBLgp \
+-d grant_type=authorization_code
+
+
+
+curl https://api.stripe.com/v1/account \
+-H "Authorization: Bearer sk_test_51MnSZXSFL3IpwMStgyhmdnlMAK2ftAA7HI1nO79teULkr6WodER5xGTHGOwKXgtwYTAxTzAXk31ZMvioz4mDzPTw008ClgbVnP"
+
+
